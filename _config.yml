@@ -2,7 +2,7 @@ title: Scott Powell for LMPC
 tagline: "Listen, Support, Make a Difference"
 description: "Scott Powell is running for election to the position of Parish Councillor in Long Melford Parish Council on Thursday 6th May 2021"
 baseurl: ""
-url: "https://scottforlmpc.github.io"
+url: "https://scottforlmpc.com"
 sass:
     style: compressed
 permalink: /articles/:year/:month/:title/
