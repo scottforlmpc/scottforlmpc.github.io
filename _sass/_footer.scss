@@ -1,0 +1,53 @@
+/* The footer element */
+.footer-top {
+    @extend .footer-part;
+    background-color: #eeeeee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1250px) {
+    .footer-top {
+        padding-top: 6%;
+        padding-bottom: 2.5%;
+    }
+}
+
+.footer-bottom {
+    @extend .footer-part;
+    background-color: #d7d7d7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-part {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer h5 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+/* Elements in the footer which contain text */
+.footer-text {
+    font-size: $text12pt;
+    line-height: $text16pt;
+    font-weight: 500;
+}
+
+/* Social media icons in the footer */
+.social-media-image {
+    margin-right: 10px;
+    opacity: 0.9;
+}
+.social-media-image:hover {
+    opacity: 1.0;
+}

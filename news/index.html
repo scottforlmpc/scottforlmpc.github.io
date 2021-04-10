@@ -1,0 +1,22 @@
+---
+layout: page
+title: News
+id: news
+---
+{% assign section = site.data.sections | where:"id", page.id  | first %}
+<div class="article-previews-container">
+    <div class="row">
+        {% for post in site.posts %}
+            <div class="col-md-6">
+                <div class="article-preview">
+                    <a href="{{ post.url }}">
+                    <img src="{{ post.img-src }}" class="panel-img" />
+                    <div class="article-title">{{ post.title }}</div>
+                    <div class="divider">____</div>
+                    <div class="article-subtitle">{{ post.excerpt | strip_html | truncatewords: 50, "[...]" }}</div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %} 
+    </div>
+</div>

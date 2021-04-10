@@ -1,0 +1,39 @@
+---
+layout: default
+title: Home
+---
+<header>
+    <div class="row">
+        <div class="d-none d-md-flex col-12">
+            <div class="text-block" style="margin-bottom: 40px;">
+                <h4 style="font-size: 2rem;">{{ site.description }}</h4>
+            </div>
+        </div>
+        <div class="d-flex d-md-none col-12">
+            <div class="text-block" style="margin-bottom: 40px;">
+                <h4 style="font-size: 1.2rem;">{{ site.description }}</h4>
+            </div>
+        </div>
+    </div>
+</header>
+<article>
+    <div class="row">
+        {% assign sections = site.data.sections | where:"show-on-homepage", true %}
+        {% for section in sections  %}
+        <div class="d-none d-md-block col-6">
+            <article>
+                <a class="no-underline" href="{{ section.href }}">
+                    {% include panel.html section=section size="halfsize" showhovertext=true showsupertitle=false %}
+                </a>
+            </article>
+        </div>
+        <div class="d-block d-md-none col-12">
+            <article>
+                <a class="no-underline" href="{{ section.href }}">
+                    {% include panel.html section=section size="smalldevice" showsupertitle=false %}
+                </a>
+            </article>
+        </div>
+        {% endfor %}
+    </div>
+</article>

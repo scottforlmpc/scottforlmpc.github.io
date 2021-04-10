@@ -1,0 +1,14 @@
+$gradientAngle: 45deg;
+$gradientRed: linear-gradient($gradientAngle, rgb(241, 20, 68), rgb(245, 38, 83));
+$gradientOrange: linear-gradient($gradientAngle, rgb(243, 139, 2), rgb(250, 158, 37));
+$gradientDeepRed: linear-gradient($gradientAngle, rgb(179, 6, 6), rgb(240, 32, 32));
+$gradientBurntOrange: linear-gradient($gradientAngle, rgb(221, 64, 2), rgb(221, 92, 6));
+
+$bgColorNameList: "red", "orange", "deepred", "burntorange";
+$bgColorList: $gradientRed, $gradientOrange, $gradientDeepRed, $gradientBurntOrange;
+
+@for $i from 1 through length($bgColorNameList) {
+    .panel-#{nth($bgColorNameList, $i)} {
+        background-image: #{nth($bgColorList, $i)};
+    }
+}

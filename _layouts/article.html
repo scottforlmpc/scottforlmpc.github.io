@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="text-indent">
+    <h4>{{ page.title }}</h4>
+</div>
+<img src="{{ page.img-src }}" class="panel-img" />
+<div class="text-block text-weight-light">
+    <div class="article-metadata">
+        <div class="article-author">{{ page.author }}</div>
+        <div class="article-date">{{ page.date | date_to_long_string: "ordinal" }}</div>
+        <div>
+            <br>
+            <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+            <script type="IN/Share" data-url="{{ site.url }}{{ page.url }}"></script>
+        </div>
+        <div class="divider">____</div>
+    </div>
+    {{ content }}
+</div>

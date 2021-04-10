@@ -1,0 +1,39 @@
+- id: about
+  name: About Scott
+  supertitle: "&nbsp;"
+  subtitle: "Read about why you should vote for Scott Powell"
+  href: /about-scott/
+  hover-text: "Scott is a family man, a firefighter and an active member of the Long Melford community. Click to read more about Scott and why he's running for election."
+  class-color: deepred
+  show-on-homepage: true
+  show-on-side-nav: true
+
+- id: voting
+  name: How to Vote
+  supertitle: "&nbsp;"
+  subtitle: "Details on how you can vote"
+  href: /how-to-vote/
+  hover-text: "The election take place on 6 May 2021. You can vote in person on 6 May or by postal vote in advance if you register in time. Click for more information."
+  class-color: orange
+  show-on-homepage: true
+  show-on-side-nav: true
+
+- id: getinvolved
+  name: Get Involved
+  supertitle: "&nbsp;"
+  subtitle: "Show your support and encourage others to vote"
+  href: /get-involved/
+  hover-text: "There are several ways you can get involved to support Scott's campaign. Click to find out the ways in which you can help."
+  class-color: burntorange
+  show-on-homepage: true
+  show-on-side-nav: true
+
+- id: news
+  name: News
+  supertitle: "&nbsp;"
+  subtitle: "News and updates about the campaign"
+  href: /news/
+  hover-text: "Throughout the campaign leading up to the election we will post updates. These updates will be shared on this site and on Facebook."
+  class-color: red
+  show-on-homepage: true
+  show-on-side-nav: true

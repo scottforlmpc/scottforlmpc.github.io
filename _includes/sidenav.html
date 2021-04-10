@@ -1,0 +1,33 @@
+<div class="vtoggler vtoggler-hide" id="sidenav">
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col">
+                <ul class="nav-menu">
+                    <li class="vtoggler-control small-item text-medium">
+                        <button class="btn btn-link" type="button">Close Menu</button>
+                    </li>
+                    <li class="large-item bottom-item text-medium">____</li>
+                    <div class="menu-side-menu-container">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="/">Home</a>
+                        </li>
+                        {% assign sections = site.data.sections | where:"show-on-side-nav", true %}
+                        {% for section in sections  %}
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="{{ section.href }}">{{ section.name }}</a>
+                        </li>
+                        {% endfor %}
+                    </div>
+                    <li class="large-item bottom-item text-medium">____</li>
+                    <li class="small-item bottom-item">
+                        <a class="no-underline" href="/legal/cookies/">Cookies</a>
+                    </li>
+                    <li class="small-item bottom-item">
+                        <a class="no-underline" href="/legal/terms/">Terms</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+    <!-- Basics -->
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="Long Melford,Parish Council">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{{ page.title | replace: '&nbsp;', ' ' }} &mdash; {{ site.title | replace: '&nbsp;', ' ' }}</title>
+
+    <!-- Preloads -->
+    <link rel="preload" href="/fonts/Roboto-Regular-webfont.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/fonts/Roboto-Light-webfont.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/fonts/Roboto-Medium-webfont.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/fonts/Roboto-Bold-webfont.woff" as="font" type="font/woff" crossorigin>
+
+    <!-- Search Engines -->
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"/>
+    <meta name="google" content="nositelinkssearchbox">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+
+    <!-- Open Graph -->
+    <meta property="og:image" content="{% if page.og-image %}{{ page.og-image }}{% else %}/img/default-og-image.jpg{% endif %}"/>
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ page.title | replace: '&nbsp;', ' ' }}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:site_name" content="{{ site.title | replace: '&nbsp;', ' ' }}"/>
+    
+    <!-- Style and Scripts -->
+    <link rel="stylesheet" href="/css/main.css?v={{ 'now' | date: '%y%m%d%H%M' }}" type="text/css" media="all"/>
+    
+</head>
+
+<body>
+
+    {% include sidenav.html %}
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                
+                {% include topnav.html %}
+
+                <div class="row d-none d-sm-block">
+                    <div class="col col-auto" style="height: 75px;"></div>
+                </div>
+
+                {{ content }}
+
+            </div>
+        </div>
+    </div>
+
+{% include footer.html %}
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/vtoggler.min.js?ver=5.5.3"></script>
+<script type="text/javascript" src="/js/bootstrap.bundle.min.js?ver=4.0.0" id="bootstrap-js"></script>
+
+</body>
+</html>

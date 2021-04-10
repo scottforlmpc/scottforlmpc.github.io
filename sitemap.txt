@@ -1,0 +1,13 @@
+---
+---
+{{ site.url }}
+{{ site.url }}/about-scott/
+{{ site.url }}/how-to-vote/
+{{ site.url }}/get-involved/
+{{ site.url }}/news/
+{{ site.url }}/legal/
+{{ site.url }}/legal/cookies/
+{{ site.url }}/legal/privacy/
+{{ site.url }}/legal/terms/
+{% for post in site.posts %}{{ site.url }}{{ post.url }}
+{% endfor %}

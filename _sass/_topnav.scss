@@ -1,0 +1,49 @@
+/* Text style for login link on topnav */
+.login-text {
+    font-size: $text12pt;
+}
+
+/* Text style for tagline on topnav */
+.tagline {
+    font-size: $text16pt;
+    line-height: $text16pt;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 992px) {
+    .tagline {
+        font-size: 18.5px;
+    }
+    .login-text {
+        font-size: 13.22px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .tagline {
+        font-size: 14.3px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .tagline {
+        font-size: 10.75px;
+    }
+}
+
+/* The top half of the top navigation bar */
+.nav-top {
+    height: 140px;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+@media screen and (min-width: 768px) {
+    .nav-top {
+        -ms-flex-align: end!important;
+        align-items: flex-end!important;
+    }
+}
+
+/* The bottom half of the top navigation bar */
+.nav-bottom {
+    height: 60px;
+    flex-wrap: initial;
+}
