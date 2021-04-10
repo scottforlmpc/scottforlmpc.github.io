@@ -12,7 +12,7 @@ There are several ways you can get involved to help support Scott's campaign.
 Deliver Leaflets
 ----------------
 
-We are looking for volunteers to help deliver Scott's campaign leaflet through the village. Please 
+We are looking for volunteers to help deliver Scott's campaign leaflet through the village. Please email us at [info@scottforlmpc.com](mailto:info@scottforlmpc.com).
 
 Put up a Poster
 ---------------
