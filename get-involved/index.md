@@ -9,11 +9,6 @@ Raising awareness of the election and promoting Scott as the best candidate is c
 
 There are several ways you can get involved to help support Scott's campaign.
 
-Deliver Leaflets
-----------------
-
-We are looking for volunteers to help deliver Scott's campaign leaflet through the village. Please email us at [info@scottforlmpc.com](mailto:info@scottforlmpc.com).
-
 Put up a Poster
 ---------------
 
@@ -26,7 +21,7 @@ Social media is fantastic for raising awareness.
 
 We're focussing on Facebook for the campaign. We have [a page set up](https://www.facebook.com/ScottForLMPC){:target="_blank"} which you can share, and we will also be producing Frames for you to add to your Facebook profile picture.
 
-Please also share on other forms of social media (e.g. Tiwtter, Instagram) as you wish. Let us know via email at [info@scottforlmpc.com](mailto:info@scottforlmpc.com) if there are any media assets you need to help with this.
+Please also share on other forms of social media (e.g. Twitter, Instagram) as you wish. Let us know via email at [info@scottforlmpc.com](mailto:info@scottforlmpc.com) if there are any media assets you need to help with this.
 
 Spread the Word
 ---------------
