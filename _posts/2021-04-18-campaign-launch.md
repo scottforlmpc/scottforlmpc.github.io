@@ -11,4 +11,4 @@ Read about the man in his own words on the [About Scott](https://scottforlmpc.co
 
 Scott is the right person for the job and we need your support to get him elected.
 
-This page and the website (https://scottforlmpc.com)[https://scottforlmpc.com] will serve as the hub for updates so please like and share this page to help spread the word. Check out the [Get Involved](https://scottforlmpc.com/get-involved/) page for ideas about how you can help.
+This website and the [Facebook page](https://www.facebook.com/ScottForLMPC) will serve as the hub for updates so please share this site to help spread the word. Check out the [Get Involved](https://scottforlmpc.com/get-involved/) page for ideas about how you can help.
