@@ -7,7 +7,7 @@ og-image: /img/articles/og/campaign-launch.jpg
 ---
 Today we are delighted to announce the official launch of Scott Powell's campaign for the Long Melford Parish Council election on 6th May.
 
-Read about the man in his own words on the [About Scott page](https://scottforlmpc.com/about-scott/).
+Read about the man in his own words on the [About Scott](https://scottforlmpc.com/about-scott/) page.
 
 Scott is the right person for the job and we need your support to get him elected.
 
