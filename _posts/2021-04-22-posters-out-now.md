@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Vote Scott posters are available now!
+title: Vote Scott Powell posters are available now!
 author: Ben Joyce
 img-src: /img/articles/posters-out-now.jpg
 og-image: /img/articles/og/posters-out-now.jpg
