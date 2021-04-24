@@ -34,6 +34,6 @@
   subtitle: "News and updates about the campaign"
   href: /news/
   hover-text: "Throughout the campaign leading up to the election we will post updates. These updates will be shared on this site and on Facebook."
-  class-color: red
+  class-color: deepred
   show-on-homepage: true
   show-on-side-nav: true
